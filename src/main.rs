@@ -1,5 +1,7 @@
 use clap::{arg, command, ArgAction};
 
+pub mod slack;
+
 fn main() {
     let cmd_arg = arg!([CMD])
         .allow_hyphen_values(true)
